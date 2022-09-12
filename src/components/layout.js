@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '@fontsource/fira-sans'
 
 import BgImage from '../images/bg.jpg'
@@ -21,16 +22,11 @@ const Layout = ({pageTitle, children}) => {
   `)
 
   return (
-    <Container fluid 
-      style={{
-        backgroundImage: `url(${BgImage})`,
-        backgroundSize: "cover", 
-        backgroundPosition: "center center",
-        minHeight: "100vh",
-        fontFamily: "Fira Sans, sans-serif"
-      }}
-      className="p-0"
-    >
+    <Container fluid style={{
+      background: `#343a40 url(${BgImage}) center/cover`,
+      width: "100vw",
+      fontFamily: "Fira Sans, sans-serif",
+    }}>
       <Navbar style={{height: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
         <Container>
           <Navbar.Brand href="/" className="text-primary">mintthemoon.xyz</Navbar.Brand>
