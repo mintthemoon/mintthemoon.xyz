@@ -47,14 +47,14 @@ const IndexPage = () => {
           <h2 className="text-center text-light">Cosmos Blockchains</h2>
         </Row>
         <Row className="mx-auto mt-2">
-          <Col xl={10} className="mx-auto d-lg-inline-flex">
+          <Col xl={8} lg={10} className="mx-auto d-lg-inline-flex p-0">
           {
             data.allChainsJson.nodes.map((chain) => (
               <Col className="mb-4">
-                <Card bg="dark" text="light" style={{width: "calc(330px + 6vw)"}} className="text-center p-2 mx-auto">
+                <Card bg="dark" text="light" style={{width: "calc(280px + 5vw)"}} className="text-center p-2 mx-auto">
                   <Row className="g-0">
                     <Col md={4}>
-                      <Card.Img variant="top" src={chain.logo} className="p-5 p-md-2 mt-1"/>  
+                      <Card.Img variant="top" src={chain.logo} className="p-4 p-md-2 mt-1"/>  
                     </Col>
                     <Col md={8}>
                       <Card.Title className="mt-2 mb-0">{chain.name}</Card.Title>
