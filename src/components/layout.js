@@ -27,7 +27,7 @@ const Layout = ({pageTitle, children}) => {
       fontFamily: "Fira Sans, sans-serif",
     }}
     >
-      <Navbar style={{height: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
+      <Navbar style={{minHeight: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
         <Container>
           <Navbar.Brand href="/" className="text-primary">mintthemoon.xyz</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
