@@ -15,8 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/fira-sans": "^4.5.9",
+    "bootstrap": "^5.2.1",
     "gatsby": "^4.22.1",
+    "gatsby-plugin-sass": "^5.22.0",
+    "gatsby-source-filesystem": "^4.22.0",
+    "gatsby-transformer-json": "^4.22.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.54.9"
   }
 }
