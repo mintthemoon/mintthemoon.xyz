@@ -24,9 +24,9 @@ const Layout = ({pageTitle, children}) => {
   return (
     <Container fluid style={{
       background: `#343a40 url(${BgImage}) center/cover`,
-      width: "100vw",
       fontFamily: "Fira Sans, sans-serif",
-    }}>
+    }}
+    >
       <Navbar style={{height: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
         <Container>
           <Navbar.Brand href="/" className="text-primary">mintthemoon.xyz</Navbar.Brand>
