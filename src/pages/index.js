@@ -31,7 +31,7 @@ const IndexPage = () => {
     <main>
       <Layout pageTitle="Home">
         <Row style={{marginTop: "8rem"}}>
-          <h1 style={{letterSpacing: "0.8rem", fontSize: "4rem"}} className="text-center text-light">
+          <h1 style={{letterSpacing: "0.8rem", fontSize: "calc(40px + 1vw)"}} className="text-center text-light">
             <span className="fw-bold text-primary">mint</span>themoon
           </h1>
         </Row>
@@ -39,7 +39,7 @@ const IndexPage = () => {
           <p className="lead text-center text-light">Quality Validation and Development Services</p>
         </Row>
         <Row style={{marginTop: "4rem"}}>
-          <Col xl={6} lg={8} md={10} className="mx-auto">
+          <Col xl={6} lg={8} md={10} xs={12} className="mx-auto">
             <h2 className="text-primary-light fw-bold">mintthemoon is an independent community-focused validator</h2>
             <p className="text-light fs-4">We love the Cosmos! The opportunities are endless and we're just getting started. Our goal is to support builders (ourselves included) with quality tools and to provide the best validation service we possibly can.</p>
           </Col>
@@ -94,6 +94,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <Seo title="Welcome" />
+export const Head = () => <Seo title="Home" />
 
 export default IndexPage
