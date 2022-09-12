@@ -1,11 +1,13 @@
 $primary: #6EF9BD;
-$secondary: #8f5325;
+$secondary: #f9d66e;
 $success: #3e8d63;
 $info: #7854e4;
 $warning: #b8c924;
 $danger: #d62518;
 $light: #f8f9fa;
 $dark: #343a40;
+$primary-light: #dbfff6;
+$primary-dark: #4dae97;
 
 $theme-colors: (
   primary: $primary,
@@ -16,6 +18,8 @@ $theme-colors: (
   danger: $danger,
   light: $light,
   dark: $dark,
+  primary-light: $primary-light,
+  primary-dark: $primary-dark,
 );
 
 @import '~bootstrap/scss/bootstrap.scss';

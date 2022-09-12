@@ -1,16 +1,18 @@
 {
     "name": "Bitcanna",
-    "id": "bitcanna-1",
-    "logo": "../images/bitcanna.svg",
+    "chain_id": "bitcanna-1",
+    "logo": "bitcanna.svg",
     "explorer": "https://cosmos.mintthemoon.xyz/bitcanna",
     "rpc": "https://rpc-bitcanna.mintthemoon.xyz",
     "lcd": "https://lcd-bitcanna.mintthemoon.xyz",
     "seeds": ["dae4e4c346eed87200c40c983adaedb52881dafa@seed.bitcanna.mintserve.org:30814"],
+    "docs": "https://docs.mintthemoon.xyz/bitcanna",
     "statesync": "https://docs.mintthemoon.xyz/bitcanna/statesync",
     "snapshots": "https://snapshots.bitcanna.mintserve.org",
+    "stake": "https://wallet.bitcanna.io/validators/bcnavaloper1suwk8dcf4retyxkkkm6hxzstzfvrzqp5hv88we",
     "testnets": [
         {
-            "id": "bitcanna-dev-4",
+            "chain_id": "bitcanna-dev-4",
             "explorer": "https://testnets-cosmos.mintthemoon.xyz/bitcanna",
             "rpc": "https://test-rpc-bitcanna.mintthemoon.xyz",
             "lcd": "https://test-lcd-bitcanna.mintthemoon.xyz",
