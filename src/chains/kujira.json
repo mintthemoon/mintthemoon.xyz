@@ -1,0 +1,22 @@
+{
+    "name": "Kujira",
+    "id": "kaiyo-1",
+    "logo": "kujira.png",
+    "explorer": "https://cosmos.mintthemoon.xyz/kujira",
+    "rpc": "https://rpc-kujira.mintthemoon.xyz",
+    "lcd": "https://lcd-kujira.mintthemoon.xyz",
+    "seeds": ["63158c2af0d639d8105a8e6ca2c53dc243dd156f@seed.kujira.mintserve.org:31897"],
+    "statesync": "https://docs.mintthemoon.xyz/kujira/statesync",
+    "snapshots": "https://snapshots.kujira.mintserve.org",
+    "testnets": [
+        {
+            "id": "harpoon-4",
+            "explorer": "https://testnets-cosmos.mintthemoon.xyz/kujira",
+            "rpc": "https://test-rpc-kujira.mintthemoon.xyz",
+            "lcd": "https://test-lcd-kujira.mintthemoon.xyz",
+            "seeds": ["c2a572758c7c894ad98fec213606c788b98ee079@test-seed.kujira.mintserve.org:32681"],
+            "statesync": "https://testnets-cosmos.mintthemoon.xyz/kujira/statesync",
+            "snapshots": ""
+        }
+    ]
+}
