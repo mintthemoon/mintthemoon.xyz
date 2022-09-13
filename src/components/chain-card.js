@@ -9,10 +9,15 @@ import FormatNumber from './format-number'
 
 const ChainCard = ({chain}) => {
   const [stakingInfo, setStakingInfo] = React.useState({})
-  React.useEffect(() => {
+  const getStakingInfo = () => {
     fetch(`${chain.lcd}/cosmos/staking/v1beta1/validators/${chain.valoper}`)
       .then(response => response.json())
       .then(result => {setStakingInfo(result.validator)})
+  }
+  React.useEffect(() => {
+    getStakingInfo()
+    const interval = setInterval(() => {getStakingInfo()}, 5000)
+    return () => clearInterval(interval)
   })
 
   return (
