@@ -48,7 +48,7 @@ const IndexPage = () => {
           </Col>
         </Row>
         <Row className="mt-5">
-          <h2 className="text-center text-light">Cosmos Blockchains</h2>
+          <h2 className="text-center text-primary-light">Cosmos Blockchains</h2>
         </Row>
         <Row className="mx-auto mt-2">
           <Col xl={8} lg={10} className="mx-auto d-lg-inline-flex p-0">
@@ -61,9 +61,9 @@ const IndexPage = () => {
           }
           </Col>
         </Row>
-        <Row style={{marginTop: "4rem"}}>
+        <Row style={{marginTop: "4rem", marginBottom: "6rem"}}>
           <Col xl={6} lg={8} md={10} className="mx-auto">
-            <h2 className="text-center text-light">Validator Operations</h2>
+            <h2 className="text-center text-primary-light">Validator Operations</h2>
             <div className="text-light fs-5">
               <p>Validating a blockchain is a responsibility we take seriously! Here's how we protect the chain and your stake:</p>
               <ul>

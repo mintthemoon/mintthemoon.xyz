@@ -14,8 +14,11 @@ const Layout = ({pageTitle, children}) => {
     <Container fluid style={{
       background: `#343a40 url(${BgImage}) center/cover`,
       fontFamily: "Fira Sans, sans-serif",
-    }}
-    >
+      minHeight: "100vh",
+      paddingLeft: "0px",
+      paddingRight: "0px",
+      position: "relative",
+    }}>
       <Navbar style={{minHeight: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-75">
         <Container>
           <Navbar.Brand href="/" className="text-primary">{pageTitle}</Navbar.Brand>
@@ -29,10 +32,17 @@ const Layout = ({pageTitle, children}) => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container style={{paddingTop: "6rem"}}>
+      <Container style={{paddingTop: "6rem", paddingBottom: "10rem"}}>
         {children}
       </Container>
-      <Container style={{marginTop: "6rem"}} fluid className="p-0">
+      <Container 
+        style={{
+          position: "absolute",
+          bottom: "0",
+        }} 
+        fluid 
+        className="p-0"
+      >
         <footer style={{height: "10rem"}} className="bg-dark bg-opacity-75">
           <Row className="mx-5 pt-4">
             <Col className="text-center mx-auto">
