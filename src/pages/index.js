@@ -65,7 +65,7 @@ const IndexPage = () => {
           </Col>
         </Row>
         <Row style={{marginTop: "4rem"}}>
-          <Col lg={8} md={10} className="mx-auto">
+          <Col xl={6} lg={8} md={10} className="mx-auto">
             <h2 className="text-center text-light">Validator Operations</h2>
             <div className="text-light fs-5">
               <p>Validating a blockchain is a responsibility we take seriously! Here's how we protect the chain and your stake:</p>

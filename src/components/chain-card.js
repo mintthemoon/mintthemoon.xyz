@@ -27,7 +27,7 @@ const ChainCard = ({chain}) => {
           <Card.Text className="mb-1">
             <ButtonGroup>
               <Button variant="outline-primary" href={`${chain.docs}/resources`} target="_blank">Docs</Button>
-              <Button variant="outline-primary" href={chain.sync} target="_blank">Sync</Button>
+              <Button variant="outline-primary" href={chain.statesync} target="_blank">Sync</Button>
               <Button variant="primary text-dark" href={chain.stake} target="_blank">Stake</Button>
             </ButtonGroup>
           </Card.Text>
