@@ -1,8 +1,5 @@
 import * as React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
-import Button from 'react-bootstrap/Button'
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
-import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
@@ -71,7 +68,7 @@ const IndexPage = () => {
               <p>Validating a blockchain is a responsibility we take seriously! Here's how we protect the chain and your stake:</p>
               <ul>
                 <li>Geographically distributed sentry nodes to ensure high availabilty.</li>
-                <li>2-of-3 threshold block signatures using <a href="https://github.com/strangelove-ventures/horcrux" target="_blank" className="text-primary-light">horcrux</a>.</li>
+                <li>2-of-3 threshold block signatures using <a href="https://github.com/strangelove-ventures/horcrux" target="_blank" rel="noreferrer" className="text-primary-light">horcrux</a>.</li>
                 <li>Multiple redundant monitoring systems to alert on any issues.</li>
               </ul>
               <p>We are always looking to improve and expand. Next on the list is to reduce reliance on third parties by investing in our own server hardware. Stake with us if you'd like to support this effort!</p>

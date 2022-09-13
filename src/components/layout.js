@@ -1,5 +1,4 @@
 import * as React from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -11,23 +10,13 @@ import '@fontsource/fira-sans'
 import BgImage from '../images/bg.jpg'
 
 const Layout = ({pageTitle, children}) => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <Container fluid style={{
       background: `#343a40 url(${BgImage}) center/cover`,
       fontFamily: "Fira Sans, sans-serif",
     }}
     >
-      <Navbar style={{minHeight: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
+      <Navbar style={{minHeight: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-75">
         <Container>
           <Navbar.Brand href="/" className="text-primary">{pageTitle}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
@@ -44,13 +33,13 @@ const Layout = ({pageTitle, children}) => {
         {children}
       </Container>
       <Container style={{marginTop: "6rem"}} fluid className="p-0">
-        <footer style={{height: "10rem"}} className="bg-dark bg-opacity-50">
+        <footer style={{height: "10rem"}} className="bg-dark bg-opacity-75">
           <Row className="mx-5 pt-4">
             <Col className="text-center mx-auto">
               <h5 className="text-primary-light">Contact</h5>
               <ul style={{listStyleType: "none", paddingLeft: "0px"}}>
-                <li className="text-muted">Github <a href="https://github.com/mintthemoon" target="_blank" className="text-primary-light">@mintthemoon</a></li>
-                <li className="text-muted">Twitter <a href="https://twitter.com/mintthemoon" target="_blank" className="text-primary-light">@mintthemoon</a></li>
+                <li className="text-muted">Github <a href="https://github.com/mintthemoon" target="_blank" rel="noreferrer" className="text-primary-light">@mintthemoon</a></li>
+                <li className="text-muted">Twitter <a href="https://twitter.com/mintthemoon" target="_blank" rel="noreferrer" className="text-primary-light">@mintthemoon</a></li>
                 <li className="text-muted">Discord <span className="text-primary-light">mintthemoon#3970</span></li>
               </ul>
             </Col>

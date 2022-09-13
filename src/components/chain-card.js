@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 import FormatNumber from './format-number'
 
 const ChainCard = ({chain}) => {
-  const [stakingInfo, setStakingInfo] = React.useState(0)
+  const [stakingInfo, setStakingInfo] = React.useState({})
   React.useEffect(() => {
     fetch(`${chain.lcd}/cosmos/staking/v1beta1/validators/${chain.valoper}`)
       .then(response => response.json())
