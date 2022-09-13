@@ -19,9 +19,15 @@ const IndexPage = () => {
           name
           chain_id
           logo
+          valoper
           docs
           statesync
           stake
+          lcd
+          native_assets {
+            symbol
+            exponent
+          }
         }
       }
     }
@@ -52,14 +58,7 @@ const IndexPage = () => {
           {
             data.allChainsJson.nodes.map((chain) => (
               <Col className="mb-4">
-                <ChainCard
-                  chain_name={chain.name}
-                  chain_id={chain.chain_id}
-                  chain_logo={chain.logo}
-                  chain_docs={chain.docs}
-                  chain_sync={chain.statesync}
-                  chain_stake={chain.stake}
-                />
+                <ChainCard chain={chain}/>
               </Col>
             ))
           }

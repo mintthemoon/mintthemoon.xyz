@@ -2,6 +2,7 @@
     "name": "Kujira",
     "chain_id": "kaiyo-1",
     "logo": "kujira-round.svg",
+    "valoper": "kujiravaloper1dl78xzsmh448kd4vlv2x6x3s0mmjzkwt6ywshy",
     "explorer": "https://cosmos.mintthemoon.xyz/kujira",
     "rpc": "https://rpc-kujira.mintthemoon.xyz",
     "lcd": "https://lcd-kujira.mintthemoon.xyz",
@@ -10,6 +11,11 @@
     "statesync": "https://docs.mintthemoon.xyz/kujira/statesync",
     "snapshots": "https://snapshots.kujira.mintserve.org",
     "stake": "https://blue.kujira.app/stake/kujiravaloper1dl78xzsmh448kd4vlv2x6x3s0mmjzkwt6ywshy",
+    "native_assets": [{
+        "base": "ukuji",
+        "exponent": 6,
+        "symbol": "KUJI"
+    }],
     "testnets": [
         {
             "chain_id": "harpoon-4",

@@ -2,6 +2,7 @@
     "name": "Bitcanna",
     "chain_id": "bitcanna-1",
     "logo": "bitcanna.svg",
+    "valoper": "bcnavaloper1suwk8dcf4retyxkkkm6hxzstzfvrzqp5hv88we",
     "explorer": "https://cosmos.mintthemoon.xyz/bitcanna",
     "rpc": "https://rpc-bitcanna.mintthemoon.xyz",
     "lcd": "https://lcd-bitcanna.mintthemoon.xyz",
@@ -10,6 +11,11 @@
     "statesync": "https://docs.mintthemoon.xyz/bitcanna/statesync",
     "snapshots": "https://snapshots.bitcanna.mintserve.org",
     "stake": "https://wallet.bitcanna.io/validators/bcnavaloper1suwk8dcf4retyxkkkm6hxzstzfvrzqp5hv88we",
+    "native_assets": [{
+        "base": "ubcna",
+        "exponent": 6,
+        "symbol": "BCNA"
+    }],
     "testnets": [
         {
             "chain_id": "bitcanna-dev-4",

@@ -34,7 +34,7 @@ const Layout = ({pageTitle, children}) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="https://docs.mintthemoon.xyz">Wiki</Nav.Link>
+              <Nav.Link href="https://docs.mintthemoon.xyz">Docs</Nav.Link>
               <Nav.Link href="https://cosmos.mintthemoon.xyz">Explorer</Nav.Link>
             </Nav>
           </Navbar.Collapse>
