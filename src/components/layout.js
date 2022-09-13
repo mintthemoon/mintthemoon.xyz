@@ -29,7 +29,7 @@ const Layout = ({pageTitle, children}) => {
     >
       <Navbar style={{minHeight: "6rem"}} bg="dark" variant="dark" fixed="top" expand="lg" className="bg-opacity-50">
         <Container>
-          <Navbar.Brand href="/" className="text-primary">mintthemoon.xyz</Navbar.Brand>
+          <Navbar.Brand href="/" className="text-primary">{pageTitle}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
